@@ -1,0 +1,73 @@
+.cardwrap{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* margin-top: -10%; */
+}
+.image{
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    position: absolute;
+  top: -50%;
+  left: 2%;
+   
+}
+/* .imgbg{
+    width: 140px;
+    height: 140px;
+    border-radius: 100px;
+    background-color: rgb(140, 67, 208);
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    z-index: 2;
+} */
+.descname{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+
+}
+.desc{
+    padding: -10px;
+}
+.descjob{
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: rgb(89, 88, 88);
+}
+.dbquoleft,.dbquoright{
+    color: rgb(166, 85, 242);
+    margin: auto;
+    margin-top: 5px;
+}
+.cardtext{
+    text-align: center;
+    font-size: 0.75rem;
+}
+.qb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.qr,.ql{
+    background-color: transparent;
+    font-size: 1.5rem;
+    color: rgb(73, 73, 73);
+    border: none;
+}
+.surprise{
+    background-color: rgb(134, 59, 208);
+    font-size: 1rem;
+    color: rgb(251, 251, 251);
+    border: none;
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 10px;
+
+}
